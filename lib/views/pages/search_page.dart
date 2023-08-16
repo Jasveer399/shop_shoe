@@ -9,7 +9,7 @@ class Search_page extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Center(
-        child: Text("Search Page",style: appstyle(40, Colors.black, FontWeight.bold),),
+        child: Text("Search",style: appstyle(40, Colors.black, FontWeight.bold),),
       ),
       //bottomNavigationBar: Bottom_navBar(),
     );
